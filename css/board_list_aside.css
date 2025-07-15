@@ -1,0 +1,102 @@
+aside{
+    width: 190px;
+    float: left;
+}
+/* 로그인박스 */
+#login_box{
+    background-color: rgb(243, 243, 243);
+    width: 186px;
+    height: 120px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+      
+
+}
+#login_title{
+    margin: 10px 0 0 10px;
+    /* 위 오른쪽 밑 왼쪽 */
+
+}
+#input_button{
+    margin: 10px 0 0 10px;
+}
+#login_input input{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    /* margin-bottom: 3px; */
+
+}
+#login_input li{
+    margin-top: 2px;
+}
+#login_input {
+    float: left;
+}
+#login_btn{
+    float: left;
+    margin: 3px 0 0 5px;
+}
+#join_search{
+    margin: 10px 0 0 5px;
+}
+/* 서브 메뉴 */
+#sub_menu{
+    background-image: url(../images/sub_menu_bg.png);
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    width: 186px;
+    height: 320px;
+     /* 원본 이미지 크기 */
+
+
+}
+#sub_menu ul{
+    padding: 80px 0 0 30px;
+}
+#sub_menu li{
+    /* list-style-image: url(../images/icon_green.gif); */
+   margin-top: 10px;
+}
+#sub_menu a:link{
+    font-size: 14px;
+    text-decoration: none;
+    color: #444444;
+}
+#sub_menu a:hover{
+    font-size: 14px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+    
+}
+#sub_menu a:visited{
+    font-size: 14px;
+    text-decoration: none;
+    color: #444444;
+}
+/* 서브 배너 */
+#sub_banner{
+    width: 186px;
+    height: 160px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin:15px 5px 30px 0;
+    /* margin-top: 15px; */
+    
+}
+#sub_banner ul{
+    padding: 6px 0 0 4px;
+}
+#sub_banner ul img{
+    display: block;
+    /* 수평을 수직으로 만들어줌 */
+
+}
+/* 보드 */
+main{
+    margin: 20px;
+}
+#board_title{
+    border-bottom: 1px solid #dddddd;
+}
