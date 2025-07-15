@@ -32,8 +32,8 @@ header #main_menu{
     /* left: 15em; */
     top: 50px;
     left: 200px;
-       
-   
+      
+  
 }
 #main_menu a:link{
     text-decoration: none;
@@ -42,11 +42,12 @@ header #main_menu{
 }
 #main_menu a:hover{
     text-decoration: underline;
-    /* 하이퍼 링크 적용된 텍스트의 밑줄 출력 */
+    /* 하이퍼 링크 적용된 텍스트에 마우스 올렸을떄 밑줄 출력 */
     color: white;
 }
 #main_menu :visited{
     text-decoration: none;
+    /* 하이퍼 링크 적용된 텍스트 눌렀을떄 효과 삭제(색 변하는것) */
     color: white;
 }
 
@@ -55,8 +56,6 @@ header #main_menu{
        /* margin 적용하려면 inline-block으로 설정 */
        font-size: 13px;
        margin: 12px 30px 0 50px;
-
-    
-}
+    }
 
 

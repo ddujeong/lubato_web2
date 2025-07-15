@@ -1,0 +1,67 @@
+/* aside */
+aside{
+    width: 190px;
+}
+
+#login_box{
+    background-color: rgb(243, 243, 243);
+    width: 186px;
+    height: 120px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+      
+
+}
+#login_title{
+    margin: 10px 0 0 10px;
+    /* 위 오른쪽 밑 왼쪽 */
+
+}
+#input_button{
+    margin: 10px 0 0 10px;
+}
+#login_input input{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    /* margin-bottom: 3px; */
+
+}
+#login_input li{
+    margin-top: 2px;
+}
+#login_input {
+    float: left;
+}
+#login_btn{
+    float: left;
+    margin: 3px 0 0 5px;
+}
+#join_search{
+    margin: 10px 0 0 5px;
+}
+#guest_box{
+    background-color: #eeeeee;
+    width: 186px;
+    height: 140px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dddddd;
+    margin-top: 15px;
+  
+}
+#guestbook_title{
+    border-bottom: 1px solid #cccccc;
+    width: 165px;
+    margin: 10px 0 0 10px;
+
+}
+#guestbook li{
+    list-style-image: url(../images/icon_blue.gif);
+    margin-top: 5px;
+
+}
+#guestbook {
+    margin-left: 40px;
+    padding: 7px;
+}
