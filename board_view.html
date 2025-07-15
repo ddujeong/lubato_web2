@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/board_list_aside.css">
-    <link rel="stylesheet" type="text/css" href="css/board_list_main.css">
+    <link rel="stylesheet" type="text/css" href="css/board_view.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/board_list_main.css"> -->
 </head>
 <body>
     <div id="wrap">
@@ -70,68 +71,31 @@
         <main>
              <img src="images/comm.gif" alt="">
              <h2 id="board_title">자유 게시판</h2>
-            <div id="total_search">
-                <div id="total">
-                    ▷ 총 3개의 게시물이 있습니다.
-                </div>
-                <div id="search">
-                    <div id="select_img">
-                        <img src="images/select_search.gif" alt="">
-                    </div>
-                <div id="search_select">
-                    <select name="" id="">
-                        <option value="">제목</option>
-                        <option value="">내용</option>
-                        <option value="">글쓴이</option>
-                    </select>
-                </div>
-                <div id="search_input"><input type="text"></div>
-                <!-- <div><img src="images/search_button.gif" alt=""></div> -->
-                <div id="search_btn"><input type="image" src="images/search_button.gif" alt=""></div>
-             </div> 
-            </div>
+             <div id="view_title_box">
+                <span>까스통님의 선물인 보드카가 정말 독하네요!!!</span>
+                <span id="info">루바토 | 조회 : 15 | 2025-07-15 (09:20)</span>
 
-            <table>
-                <tr>
-                    <th>번호</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>일시</th>
-                    <th>조회수</th>
-                </tr>
-                <tr>
-                    <td class="col1">1</td>
-                    <td class="col2"><a href="board_view.html">까스통님이 선물한 보드카가 정말 독하네요!!</td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2025-07-15</td>
-                    <td class="col5">15</td>
-                </tr>
-                <tr>
-                    <td class="col1">2</td>
-                    <td class="col2"><a href="board_view.html">까스통님이 선물한 보드카가 정말 독하네요!!</td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2025-07-15</td>
-                    <td class="col5">30</td>
-                </tr>
-                <tr>
-                    <td class="col1">3</td>
-                    <td class="col2"><a href="board_view.html">까스통님이 선물한 보드카가 정말 독하네요!!</td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2025-07-15</td>
-                    <td class="col5">45</td>
-                </tr>
-            </table>
-            <!-- 게시판 글목록 끝 -->
-             <!-- 게시판 하단 페이지 이동버튼 -->
-             <div id="buttons">
-                <div class="button_col1">
-                    ◀ 이전 1 다음 ▶
-                </div>
-                <div class="button_col2">
-                    <input type="image" src="images/list.png" alt="">
-                    <a href="#"><img src="images/write.png" alt=""></a>
-                </div>
              </div>
+             <div id="view_content">
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+             </div>
+             <div id="comment_box">
+                <img id="title_comment" src="images/title_comment.gif" alt="">
+                <textarea name="" id=""></textarea>
+                <img id="ok_ripple" src="images/ok_ripple.gif" alt="">
+                
+             </div>
+             <div class="clear"></div>
+             <div id="buttons">
+                <a href="#"><img src="images/delete.png" alt=""></a>
+                <a href="board_list.html"><img src="images/list.png" alt=""></a>
+                <a href="board_write.html"><img src="images/write.png" alt=""></a>
+             </div>
+            
         </main>
         <div class="clear"></div>
         <footer>
