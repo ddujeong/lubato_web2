@@ -1,6 +1,7 @@
 /* aside */
 aside{
     width: 190px;
+    float: left;
 }
 
 #login_box{
@@ -64,4 +65,83 @@ aside{
 #guestbook {
     margin-left: 40px;
     padding: 7px;
+}
+/* main */
+main{
+    width: 758px;
+    float: right;
+ }
+#notice_free_youtube{
+    height: 250px;
+    margin-top: 10px;
+    position: relative;
+}
+#notice{
+    width: 360px;
+    position: absolute;
+ 
+}
+.latest_title{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 3px;
+}
+.latest_img{
+    float: left;
+ }
+.pen_image{
+    float: left;
+    margin: 10px 0 0 20px;
+}
+.more{
+    float: right;
+}
+.latest_list{
+    float: right;
+}
+.latest_list li{
+    padding : 10px 0 10px 0;
+}
+.subject{
+    float: left;
+    width: 170px;
+    margin-top: 5px;
+}
+.data{
+    float: right;
+    margin-top: 5px;
+}
+#free{
+    width: 360px;
+    position: absolute;
+    top: 120px;
+}
+#youtube{
+    width: 365px;
+    height: 250px;
+    position: absolute;
+    left: 380px;
+}
+#bach{
+    border-top: 1px solid #dddddd;
+    margin: 10px 0 0 45px;
+}
+#gallery{
+    margin-top: 10px;
+}
+#gallery_box{
+    width: 749px;
+    height: 210px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #dddddd;
+    margin: 10px 0 0 5px;
+}
+#gallery_list{
+    padding: 25px 0 0 18px;
+}
+.items{
+    /* display: inline; */
+    float: left;
+    text-align: center;
+    margin-left: 40px;
 }
