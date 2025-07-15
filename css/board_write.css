@@ -1,0 +1,55 @@
+main{
+    width: 758px;
+    float: right;
+}
+#write_title{
+    background-color: #eeeeee;
+    border-top: 2px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+
+}
+table td{
+    border-bottom: 1px solid #dddddd; 
+    padding: 10px; 
+}
+.col1{
+    text-align: center;
+    font-weight: bold;
+    width: 20%;
+}
+.col2{
+    border-left: 1px solid #dddddd;
+    padding: 5px;
+}
+#name input{
+    width: 100px;
+    height: 16px;
+    border: 1px solid #00ba22;
+
+}
+#subject input{
+    width: 550px;
+    height: 16px;
+
+}
+#content textarea{
+    width: 550px;
+    height: 200px;
+
+}
+#upload input{
+    width: 200px;
+  
+}
+#buttons{
+    text-align: right;
+    margin-top: 10px;
+}
