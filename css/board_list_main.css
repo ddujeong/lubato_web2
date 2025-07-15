@@ -1,0 +1,95 @@
+main{
+    width: 740px;
+    float: right;
+}
+#board_title{
+    border-bottom: 1px solid #bbbbbb;
+    /* margin-top: 20px; */
+    padding: 0 0 5px 5px;
+}
+#total_search{
+    height: 35px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+#total{
+    position: absolute;
+    top: 10px;
+}
+#search{
+    position: absolute;
+    left: 450px;
+    top: 10px;
+}
+#search_select{
+    position: absolute;
+    
+    
+}
+#select_img{
+    position: absolute;
+    
+}
+#search_select{
+     position: absolute;
+     left: 60px;
+
+}
+#search_input{
+     position: absolute;
+     left: 125px;
+
+}
+#search_input input{
+    width: 100px;
+}
+#search_btn{
+    position: absolute;
+     left: 235px;
+}
+
+/* 게시판 목록 */
+table{
+    border-collapse: collapse;
+    /* 테이블 만들때 필수 적용 */
+    margin: 0 auto;
+    width: 100%;
+}
+table tr{
+    height: 30px;
+}
+table th{
+    background-color: #eeeeee;
+    /* border-bottom:1px solid red ; */
+    border-top:2px solid #aaaaaa; ;
+}
+table td{
+    border-bottom: 1px solid #dddddd;
+}
+td.col1{
+    text-align: center;
+}
+td.col2{
+    width: 60%;
+}
+td.col3{
+    text-align: center;
+}
+td.col4{
+    text-align: center;
+}
+td.col5{
+    text-align: center;
+}
+table td a:link{
+    color: black;
+    text-decoration: none;
+}
+table td a:hover{
+    color: black;
+    text-decoration: underline;
+}
+table td a:visited{
+    color: black;
+    text-decoration: none;
+}
